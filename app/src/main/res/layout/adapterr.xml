@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/das">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/typee"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="20dp"
+        app:cardBackgroundColor="#1bc4d7"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/txtType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="#1bc4d7"
+                android:fontFamily="@font/carter_one"
+                android:text="Type: Knock Knock"
+                android:textAllCaps="true"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/testa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/typee"
+        app:cardBackgroundColor="#000083aa">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <net.karthikraj.shapesimage.ShapesImage xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/sss"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:orientation="vertical"
+                android:padding="4dp"
+                android:scaleType="centerCrop"
+                android:src="#d25151"
+                app:shape="message" >
+
+            </net.karthikraj.shapesimage.ShapesImage>
+
+            <TextView
+                android:id="@+id/qqq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/carter_one"
+                android:paddingLeft="40dp"
+                android:paddingTop="20dp"
+                android:text="Setup"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/txtSetup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/qqq"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="65dp"
+                android:fontFamily="@font/gorditas"
+                android:gravity="center"
+                android:paddingBottom="30dp"
+                android:paddingTop="10dp"
+                android:paddingRight="8dp"
+                android:text="TITLE"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/aa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/testa"
+        android:layout_marginTop="15dp"
+        app:cardBackgroundColor="#000083aa">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <net.karthikraj.shapesimage.ShapesImage xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/aaa"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:adjustViewBounds="true"
+                android:orientation="vertical"
+                android:padding="4dp"
+                android:scaleType="centerCrop"
+                android:src="#d25151"
+                app:shape="message_reply" />
+
+            <TextView
+                android:id="@+id/forr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/carter_one"
+                android:paddingRight="40dp"
+                android:paddingTop="20dp"
+                android:text="PunchLine"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/txtPunch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/forr"
+                android:paddingTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="65dp"
+                android:fontFamily="@font/gorditas"
+                android:gravity="center"
+                android:paddingBottom="30dp"
+                android:text="TITLE"
+                android:textColor="@android:color/white"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cardViewNew"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/aa"
+
+        android:layout_centerHorizontal="true"
+        app:cardBackgroundColor="#810005"
+        app:cardCornerRadius="35dp"
+        app:cardElevation="10dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnOther"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="#810005"
+                android:fontFamily="@font/carter_one"
+                android:text="TAKE OTHER JOKE"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:textStyle="normal" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
